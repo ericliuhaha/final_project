@@ -1,0 +1,15 @@
+
+train: ./photo-label--1/train/images
+val: ./photo-label--1/valid/images
+test: ./photo-label--1/test/images
+
+nc: 2
+names: ['eyes', 'faces']
+
+roboflow:
+  license: CC BY 4.0
+  project: photo-label
+  url: https://universe.roboflow.com/bonktako/photo-label/dataset/1
+  version: 1
+  workspace: bonktako
+
